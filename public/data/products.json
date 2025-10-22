@@ -49,7 +49,7 @@
     },
     {
         "id": "7",
-        "name": "Combo desayuno para compartir",
+        "name": "Combo desayuno",
         "price": 26500,
         "category": "salado",
         "description": ": 2 cachitos, 2 minilunch, 6 tequeños y una torta de choclo.",
@@ -57,7 +57,7 @@
     },
     {
         "id": "8",
-        "name": "Combo merienda para compartir",
+        "name": "Combo merienda",
         "price": 20900,
         "category": "salado",
         "description": ": 12 tequeños, dedos de queso envueltos en una masa y torta 3 leches familiar, bizcocho húmedo con leche condensada y leche evaporada cubierto con merengue italiano y frutas de estación.",
@@ -73,7 +73,7 @@
     },
     {
         "id": "10",
-        "name": "Torta Patronus de chocolate",
+        "name": "Patronus de chocolate",
         "price": 6500,
         "category": "dulce",
         "description": ": Porción de torta triple chocolate.",
