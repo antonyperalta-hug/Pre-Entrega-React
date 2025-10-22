@@ -1,0 +1,130 @@
+[
+    {
+        "id": "1",
+        "name": "Pan de Jamón especial",
+        "price": 18500,
+        "category": "salado",
+        "description": ": Arrollado de 900 gr aprox., relleno con jamón, panceta, aceitunas, uvas pasas y queso crema.",
+        "imageUrl": "/images/pan_jamon_especial.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Tequeños",
+        "price": 11500,
+        "category": "salado",
+        "description": ": Dedos de queso envueltos en una masa delgada y crujiente, acompañado con dip de palta (10 unidades).",
+        "imageUrl": "/images/tequenos.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Quesadillas",
+        "price": 3700,
+        "category": "salado",
+        "description": ": Tortilla de harina de trigo con abundante queso fresco.",
+        "imageUrl": "/images/quesadillas.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Cachito tradicional",
+        "price": 3700,
+        "category": "salado",
+        "description": ": Arrollado de masa suave relleno de jamón.",
+        "imageUrl": "/images/cachitos_tradicional.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Cachito Especial",
+        "price": 3900,
+        "category": "salado",
+        "description": ": Arrollado de masa suave relleno de jamón, queso crema y panceta.",
+        "imageUrl": "/images/cachitos_especial.jpg"
+    },    
+    {
+        "id": "6",
+        "name": "Golfeado",
+        "price": 3900,
+        "category": "salado",
+        "description": ": Roll especiado con canela, azúcar mascabo y anís dulce con toppin de queso blanco.",
+        "imageUrl": "/images/golfeado.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Combo desayuno para compartir",
+        "price": 26500,
+        "category": "salado",
+        "description": ": 2 cachitos, 2 minilunch, 6 tequeños y una torta de choclo.",
+        "imageUrl": "/images/combo_desayuno.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Combo merienda para compartir",
+        "price": 20900,
+        "category": "salado",
+        "description": ": 12 tequeños, dedos de queso envueltos en una masa y torta 3 leches familiar, bizcocho húmedo con leche condensada y leche evaporada cubierto con merengue italiano y frutas de estación.",
+        "imageUrl": "/images/combo_ party_box.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Torta de zanahoria",
+        "price": 6500,
+        "category": "dulce",
+        "description": ": Porción de torta de zanahoria con nueces y frosting de queso crema.",
+        "imageUrl": "/images/torta_zanahoria.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Torta Patronus de chocolate",
+        "price": 6500,
+        "category": "dulce",
+        "description": ": Porción de torta triple chocolate.",
+        "imageUrl": "/images/torta_chocolate.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Torta tres leches",
+        "category": "dulce",
+        "price": 7200,
+        "description": " : Bizcocho húmedo con crema de leche, leche condensada y leche evaporada cubierto con merengue italiano.",
+        "imageUrl": "/images/tres_leches.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Torta Red Velvet",
+        "price": 6500,
+        "category": "dulce",
+        "description": ": Porción de torta red velvet y frosting de queso crema.",
+        "imageUrl": "/images/torta_red_velvet.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Brownie",
+        "price": 6500,
+        "category": "dulce",
+        "description": ": Brownie individual con trozos de chocolate negro, chocolate blanco y nueces.",
+        "imageUrl": "/images/brownie.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Cookies chispas chocolate",
+        "price": 7800,
+        "category": "dulce",
+        "description": ": 6 galletas de vainillas con trozos de chocolate.",
+        "imageUrl": "/images/Cookies _vainilla_chips.jpg"
+    },
+    {
+        "id": "15",
+        "name": "Cookies Red Velvet",
+        "price": 7800,
+        "category": "dulce",
+        "description": ": 6 galletas de vainillas con trozos de chocolate blanco.",
+        "imageUrl": "/images/Cookies_red_velvet.jpg"
+    },
+    {
+        "id": "16",
+        "name": "Marquesa",
+        "price": 5400,
+        "category": "dulce",
+        "description": ": Capas de bizcocho de chocolate intercaladas con dulce de leche y chocolate.",
+        "imageUrl": "/images/marquesa.jpg"
+    }  
+]

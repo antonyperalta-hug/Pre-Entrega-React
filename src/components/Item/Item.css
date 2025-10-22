@@ -1,0 +1,92 @@
+/* 🔹 Contenedor general (aplica en el componente padre, por ejemplo ItemList.jsx) */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem; /* espacio entre cards */
+    justify-items: center; /* centra cada item dentro de su columna */
+    justify-content: center; /* centra todo el grid respecto al contenedor */
+    max-width: 1300px; /* ancho máximo del área de productos */
+    margin: 2rem auto; /* centrado horizontal respecto al nav/título */
+    padding: 1rem;
+}
+
+/* 🔹 Título centrado (opcional, si lo usás) */
+.products-title {
+    text-align: center;
+    color: #1e1e1e;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+/* 🔹 Cada producto (tu componente Item) */
+.product-item {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 15.625rem;
+    color: #f5f5f5;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+.product-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.product-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.product-item p {
+    margin: 0.375rem 0;
+}
+
+.product-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ffcc66;
+}
+
+/* 🔹 Botones u otras acciones dentro de cada producto */
+.product-actions {
+    margin-top: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.product-actions .btn .btn-add {
+    margin: 1rem;
+}
+
+/* 🔹 Diseño responsivo */
+@media (max-width: 1200px) {
+    .product-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .product-container {
+        grid-template-columns: 1fr;
+    }
+}
