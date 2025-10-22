@@ -1,17 +1,15 @@
-/* 🔹 Contenedor general (aplica en el componente padre, por ejemplo ItemList.jsx) */
-.product-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem; /* espacio entre cards */
-    justify-items: center; /* centra cada item dentro de su columna */
-    justify-content: center; /* centra todo el grid respecto al contenedor */
-    max-width: 1300px; /* ancho máximo del área de productos */
-    margin: 2rem auto; /* centrado horizontal respecto al nav/título */
-    padding: 1rem;
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem; 
+        justify-items: center; 
+        justify-content: center; 
+        max-width: 1300px; 
+        margin: 2rem auto; 
+        padding: 1rem;
 }
 
-/* 🔹 Título centrado (opcional, si lo usás) */
-.products-title {
+    .products-title {
     text-align: center;
     color: #1e1e1e;
     font-size: 2.2rem;
@@ -20,7 +18,7 @@
     font-weight: 700;
 }
 
-/* 🔹 Cada producto (tu componente Item) */
+
 .product-item {
     background-color: #1e1e1e;
     border: 1px solid #333;
@@ -57,10 +55,10 @@
 .product-title {
     font-size: 1.1rem;
     font-weight: bold;
-    color: #ffcc66;
+    color: #7d84a6;
 }
 
-/* 🔹 Botones u otras acciones dentro de cada producto */
+
 .product-actions {
     margin-top: 0.75rem;
     display: flex;
@@ -72,7 +70,7 @@
     margin: 1rem;
 }
 
-/* 🔹 Diseño responsivo */
+
 @media (max-width: 1200px) {
     .product-container {
         grid-template-columns: repeat(3, 1fr);
