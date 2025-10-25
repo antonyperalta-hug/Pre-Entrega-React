@@ -1,33 +1,38 @@
 nav.navbar {
   background-color: #c4c7d5;
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* logo izq - links der */
   align-items: center;
-  padding: 15px 0;
+  padding: 10px 30px; /* menos padding para hacerlo más compacto */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
-  z-index: 1000; 
+  width: 100%;
 }
 
+.nav-logo img {
+  height: 80px;
+  width: auto;
+  cursor: pointer;
+  margin-left: 100px;
+}
 
 .nav-links {
   list-style: none;
   display: flex;
+  justify-content: center;  /* 🔹 centra los links horizontalmente */
   gap: 40px;
-  margin: 0;
+  margin: 0 auto;           /* 🔹 empuja los links al centro */
   padding: 0;
+  flex: 1;                  /* 🔹 ocupa espacio igual en el centro */
 }
-
-
 .nav-links li {
   position: relative;
 }
 
-
 .nav-links a {
   text-decoration: none;
-  color: #000000;
+  color: #000;
   font-weight: 600;
   font-size: 1.1rem;
   transition: color 0.3s ease, transform 0.2s ease;
@@ -38,9 +43,9 @@ nav.navbar {
   transform: scale(1.1);
 }
 
-
+/* 🔹 Contador carrito */
 .in-cart {
-  background-color: #d10f0f;
+  background-color: #32095e;
   color: white;
   border-radius: 50%;
   font-size: 0.8rem;
@@ -50,15 +55,21 @@ nav.navbar {
   right: -30px;
 }
 
-
+/* 🔹 Responsive */
 @media (max-width: 768px) {
+  nav.navbar {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+
   .nav-links {
     flex-direction: column;
     align-items: center;
     gap: 15px;
   }
 
-  nav.navbar {
-    padding: 20px 0;
+  .nav-logo img {
+    height: 45px;
   }
 }
